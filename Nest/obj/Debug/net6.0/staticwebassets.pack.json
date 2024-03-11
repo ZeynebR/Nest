@@ -341,6 +341,14 @@
       "PackagePath": "staticwebassets\\Client\\assets\\imgs\\page\\page-404.png"
     },
     {
+      "Id": "C:\\Users\\zeyne\\OneDrive\\Desktop\\Nest\\Nest\\wwwroot\\Client\\assets\\imgs\\products\\apple-hover.jpg",
+      "PackagePath": "staticwebassets\\Client\\assets\\imgs\\products\\apple-hover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zeyne\\OneDrive\\Desktop\\Nest\\Nest\\wwwroot\\Client\\assets\\imgs\\products\\apple.jpg",
+      "PackagePath": "staticwebassets\\Client\\assets\\imgs\\products\\apple.jpg"
+    },
+    {
       "Id": "C:\\Users\\zeyne\\OneDrive\\Desktop\\Nest\\Nest\\wwwroot\\Client\\assets\\imgs\\shop\\cat-1.png",
       "PackagePath": "staticwebassets\\Client\\assets\\imgs\\shop\\cat-1.png"
     },

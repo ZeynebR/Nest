@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Microsoft.AspNetCore.Mvc.Razor.Infrastructure;
+using Nest.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.CompilerServices;
 
 namespace Nest.Models
 {
@@ -12,3 +15,5 @@ namespace Nest.Models
         public List<Product>? Products { get; set; } 
     }
 }
+///assets/imgs/theme/icons/category-1.svg
+//    assets/imgs/products/apple.jpg

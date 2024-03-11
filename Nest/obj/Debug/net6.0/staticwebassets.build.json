@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d+QnlwAvug9ayKYlV2jSTusrPlw1MDwAkxsJRrwaZHU=",
+  "Hash": "TFrFz+u5j0bJbIZsjFqdECmdjPyQYeQdOdE4GfUhsDs=",
   "Source": "Nest",
   "BasePath": "_content/Nest",
   "Mode": "Default",
@@ -1460,6 +1460,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Client\\assets\\imgs\\page\\page-404.png"
+    },
+    {
+      "Identity": "C:\\Users\\zeyne\\OneDrive\\Desktop\\Nest\\Nest\\wwwroot\\Client\\assets\\imgs\\products\\apple.jpg",
+      "SourceId": "Nest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeyne\\OneDrive\\Desktop\\Nest\\Nest\\wwwroot\\",
+      "BasePath": "_content/Nest",
+      "RelativePath": "Client/assets/imgs/products/apple.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\assets\\imgs\\products\\apple.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\zeyne\\OneDrive\\Desktop\\Nest\\Nest\\wwwroot\\Client\\assets\\imgs\\products\\apple-hover.jpg",
+      "SourceId": "Nest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zeyne\\OneDrive\\Desktop\\Nest\\Nest\\wwwroot\\",
+      "BasePath": "_content/Nest",
+      "RelativePath": "Client/assets/imgs/products/apple-hover.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\assets\\imgs\\products\\apple-hover.jpg"
     },
     {
       "Identity": "C:\\Users\\zeyne\\OneDrive\\Desktop\\Nest\\Nest\\wwwroot\\Client\\assets\\imgs\\shop\\cat-1.png",
