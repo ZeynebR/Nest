@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Nest.Data;
+using Nest.Models;
 
 namespace Nest.Areas.Admin.Controllers
 {
@@ -13,7 +15,19 @@ namespace Nest.Areas.Admin.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task< IActionResult> Index()
+        {
+            var categories =await _context.Categories.Include(x=>x.Products).ToListAsync();
+            return View(categories);
+        }
+
+        public IActionResult Create()
+        { 
+            return View();
+        }
+        [HttpPost]  
+
+        public IActionResult Create(Category category)
         {
             return View();
         }

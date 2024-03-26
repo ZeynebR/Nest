@@ -19,6 +19,7 @@ namespace Nest.Controllers
             var products= await _context.Products.
                 Include(x=> x.Category).
                 Include(x=>x.ProductImages).
+                Include(x=>x.Vendor).
                 OrderByDescending(x=> x.Id).Take(20).ToListAsync();
 
             var categories = await _context.Categories.Include(x=>x.Products).ToListAsync();
