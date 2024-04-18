@@ -13,6 +13,7 @@ namespace Nest.Models
         [NotMapped]
         public IFormFile File { get; set; } 
         public List<Product>? Products { get; set; } 
+        public bool SoftDelete { get; set; }    
     }
 }
 ///assets/imgs/theme/icons/category-1.svg
